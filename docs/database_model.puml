@@ -1,0 +1,39 @@
+@startuml taberna_db_docs
+!theme plain
+title Diagrama Entidade-Relacionamento: e-Tavern (MySQL)
+
+' Configurações visuais para melhor leitura
+skinparam roundcorner 5
+skinparam Linetype ortho
+hide circle
+
+entity "**styles**" as styles {
+  * **id** : INT [PK] <<auto_increment>>
+  --
+  * name : VARCHAR(255)
+  * family : VARCHAR(255)
+}
+
+entity "**breweries**" as breweries {
+  * **id** : INT [PK] <<auto_increment>>
+  --
+  * name : VARCHAR(255)
+  * country : VARCHAR(255)
+  website : VARCHAR(255)
+}
+
+entity "**labels**" as labels {
+  * **id** : INT [PK] <<auto_increment>>
+  --
+  * name : VARCHAR(255)
+  * style_id : INT [FK]
+  * brewery_id : INT [FK]
+  * abv : DECIMAL(5,2)
+  * ibu : DECIMAL(5,2)
+}
+
+' Relacionamentos (Conexões visuais)
+styles ||--o{ labels : "possui"
+breweries ||--o{ labels : "produz"
+
+@enduml

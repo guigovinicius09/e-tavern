@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --ref-tavern-brown: #3c2a1e;
+  --ref-hop: #1f7c49; /*dark mode actions*/
+  --ref-malt: #e6b34a; /*dark mode highlights and icons*/
+  --ref-soft-cream: #f8f3e9; /*dark mode text*/
+  --ref-portal: #a89b8f;
+  /* dark-preview */
+  --ref-tavern-backdround: #1f1710;
+  --ref-section-backdround: #2d2218;
+}
+
+@theme {
+  --color-tavern: #3c2a1e;
+  --color-hop: #1f7c49;
+  --color-malt: #e6b34a;
+  --color-soft-cream: #f8f3e9;
+  --color-portal: #a89b8f;
+}

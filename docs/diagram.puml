@@ -1,0 +1,29 @@
+@startuml taberna_scientia_sequencia
+skinparam actorStyle awesome
+!theme cerulean-outline
+
+actor "Usuário" as User
+participant "Front-end\n(Next.js)" as UI
+participant "Back-end\n(Express)" as API
+database "Cloud SQL\n(MySQL)" as DB
+
+autonumber
+
+User -> UI : Preenche filtros e clica em "Buscar"
+activate UI
+
+UI -> API : GET /cervejas?estilo=IPA (JSON)
+activate API
+
+API -> DB : SELECT * FROM labels WHERE...
+activate DB
+DB --> API : Retorna registros
+deactivate DB
+
+API --> UI : Resposta 200 OK (JSON)
+deactivate API
+
+UI --> User : Exibe lista de cervejas
+deactivate UI
+
+@enduml
