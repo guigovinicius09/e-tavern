@@ -4,12 +4,13 @@
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![UML](https://img.shields.io/badge/UML-Documentation-333333?style=for-the-badge&logo=uml&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-0.1.0--alpha-blue)
+![Version](https://img.shields.io/badge/Version-0.2.0--alpha-magenta)
 
 O **e-Tavern** é um catálogo digital especializado em bebidas, focado em oferecer uma experiência rica em informações para entusiastas. Mais do que um simples banco de dados, a plataforma reúne curiosidades, histórias de cervejarias e detalhes técnicos (como ABV e IBU), servindo como um guia definitivo para quem deseja explorar o universo das bebidas com profundidade.
 
