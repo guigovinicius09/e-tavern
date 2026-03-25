@@ -1,23 +1,38 @@
-# 🍺 eTavern - Registro de Alterações (Changelog)
+# 🍺 eTavern - Changelog
 
-Todos os marcos importantes e mudanças técnicas deste projeto são documentados aqui.
+All the important milestones and technical changes of this project are documented here.
 
-![Version](https://img.shields.io/badge/version-0.2.0-magenta?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-em_desenvolvimento-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-0.3.0-magenta?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-in_development-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
 ---
 
-## 🚀 [0.2.0] - 2026-03-13
+# Changelog
+
+## [0.3.0] - 2026-03-25
+
+### Added
+
+- Integrated new social media links in Footer (GitHub, LinkedIn, Instagram).
+- Implemented "Quick Links" section in Footer for enhanced navigation.
+
+### Changed
+
+- Refactored Header and Footer layout for better brand visual consistency.
+
+---
+
+## [0.2.0] - 2026-03-13
 
 ### 🏗️ Backend (Branch: `feature/backend-setup`)
 
-- **Boilerplate:** Configuração inicial de ambiente com Node.js, TypeScript e Sequelize.
-- **CRUD Completo:** Implementação das operações básicas para `Styles`, `Breweries` e `Labels`.
-- **Integridade Relacional:** Configuração de Chaves Estrangeiras vinculando Rótulos a Estilos e Cervejarias.
-- **Consultas Avançadas:** Implementação de `Eager Loading` para retornar JSONs aninhados com informações completas de rótulo, estilo e cervejaria.
-- **Ajustes Técnicos:** - Configuração de `timestamps` automáticos para compatibilidade com MySQL Workbench.
-  - Implementação de trava lógica para evitar duplicidade de rótulos (Status 409).
+- **Boilerplate:** Initial setup of the development environment with Node.js, TypeScript, and Sequelize.
+- **CRUD:** Implementation of basic operations for `Styles`, `Breweries`, and `Labels`.
+- **Relational Integrity:** Configuring Foreign Keys by Linking Labels to Styles and Breweries.
+- **Advanced Queries:** Implementation of `Eager Loading` to return nested JSONs with complete label, style, and brewery information.
+- **Technical Adjustments:** - Automatic timestamp configuration for compatibility with MySQL Workbench.
+  - Implementation of a logical lock to prevent duplicate labels (Status 409).
 
 ---
 
@@ -25,10 +40,10 @@ Todos os marcos importantes e mudanças técnicas deste projeto são documentado
 
 ### 🖥️ Frontend (Next.js)
 
-- **Setup Inicial:** Inicialização do projeto utilizando **Next.js**.
-- **Design System:** Definição da paleta de cores oficial do eTavern.
-- **Componentização:** Desenvolvimento das versões iniciais do `Header` e `Footer`.
-- **Nota:** Estruturas marcadas para refatoração futura conforme evolução da integração.
+- **Initial Setup:** Initializing the project using **Next.js**.
+- **Design System:** Definition of the official eTavern color palette.
+- **Componentization:** Development of the initial versions of `Header` and `Footer`.
+  `Structures marked for future refactoring as integration progresses.`
 
 ---
 
@@ -36,7 +51,7 @@ Todos os marcos importantes e mudanças técnicas deste projeto são documentado
 
 ### 📐 Planejamento & Documentação
 
-- **Modelagem:** Criação dos diagramas de banco de dados (DER) e fluxos em **PlantUML** (`.puml`) na pasta `/docs`.
-- **Project Base:** Elaboração do `README.md` com a visão geral do ecossistema eTavern.
+- **Modeling:** Creation of database diagrams (ERD) and flows in **PlantUML** (`.puml`) in the `/docs` folder.
+- **Project Base:** Creating a `README.md` file with an overview of the eTavern ecosystem.
 
 ---

@@ -1,6 +1,9 @@
 # 🍺 e-Tavern
 
-> ### A sua adega digital de bolso.
+[![English](https://img.shields.io/badge/Language-English-darkred)](#)
+[![Português](https://img.shields.io/badge/Language-Portuguese-darkgreen)](README.pt-br.md)
+
+> ### Your pocket digital cellar.
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -12,66 +15,66 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-0.2.0--alpha-magenta)
 
-O **e-Tavern** é um catálogo digital especializado em bebidas, focado em oferecer uma experiência rica em informações para entusiastas. Mais do que um simples banco de dados, a plataforma reúne curiosidades, histórias de cervejarias e detalhes técnicos (como ABV e IBU), servindo como um guia definitivo para quem deseja explorar o universo das bebidas com profundidade.
+**e-Tavern** is a digital catalog specialized in beverages, designed to provide a data-rich experience for enthusiasts. More than just a database, the platform aggregates trivia, brewery heritage, and technical specifications (such as ABV and IBU), serving as a definitive guide for those looking to explore the beverage universe in depth.
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Objective
 
-Transformar a busca por bebidas em uma jornada de descoberta, conectando o usuário final às histórias e características técnicas de cada rótulo de forma simples, intuitiva e moderna.
+To transform beverage discovery into an immersive journey, connecting end-users to the history and technical attributes of each label through a simple, intuitive, and modern interface.
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- **Catálogo Inteligente:** Explore bebidas por estilos, famílias e cervejarias.
-- **Ficha Técnica Detalhada:** Informações de amargor (IBU), teor alcoólico (ABV) e notas de sabor.
-- **Curadoria e Histórias:** Conteúdo rico sobre a origem de cada rótulo e curiosidades do mestre-cervejeiro.
-- **Filtros Avançados:** Busca otimizada para encontrar a bebida ideal para cada momento.
+- **Smart Catalog:** Browse beverages by style, family, and brewery.
+- **Technical Specifications:** Detailed data on bitterness (IBU), Alcohol by Volume (ABV), and tasting notes.
+- **Curation & Storytelling:** Rich content regarding label origins and brewmaster insights.
+- **Advanced Filtering:** Optimized search engine to find the ideal beverage for any occasion.
 
-## 🏗️ Arquitetura do Sistema
+## 🏗️ System Architecture
 
-O projeto utiliza uma arquitetura distribuída e escalável, preparada para o ambiente de nuvem:
+The project leverages a distributed and scalable architecture, tailored for cloud environments:
 
-- **Frontend:** Next.js (Interface reativa e otimizada para SEO).
-- **Backend:** Node.js com Express (API REST segura e eficiente).
-- **Banco de Dados:** MySQL hospedado no Google Cloud SQL.
-- **Infraestrutura:** Docker & Cloud Run (Preparado para escala global).
+- **Frontend:** Next.js (Reactive UI with SEO optimization).
+- **Backend:** Node.js with Express (Secure and efficient RESTful API).
+- **Database:** MySQL hosted on Google Cloud SQL.
+- **Infrastructure:** Docker & Cloud Run (Ready for global scaling).
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tech Stack
 
 - [Next.js](https://nextjs.org/)
 - [Express](https://expressjs.com/)
 - [MySQL](https://www.mysql.com/)
 - [Google Cloud Platform](https://cloud.google.com/)
-- [PlantUML](https://plantuml.com/) (Documentação de Arquitetura)
+- [PlantUML](https://plantuml.com/) (Architecture Documentation)
 
-## 🛣️ Roadmap de Desenvolvimento
+## 🛣️ Development Roadmap
 
-Aqui estão as etapas de evolução do **e-Tavern**.
+The following steps outline the evolution of **e-Tavern**.
 
-![Fase 1](https://img.shields.io/badge/Fase_1-Planejamento_&_Arquitetura-blue?style=flat-square)
+![Phase 1](https://img.shields.io/badge/Phase_1-Planning_&_Architecture-blue?style=flat-square)
 
-- [x] Definição da Identidade e Nome (`e-Tavern`).
-- [x] Modelagem do Banco de Dados (MySQL).
-- [x] Criação dos Diagramas de Sequência (PlantUML).
-- [x] Estruturação do README e Repositório.
+- [x] Brand identity and naming (`e-Tavern`).
+- [x] Database Schema Modeling (MySQL).
+- [x] Sequence Diagram creation (PlantUML).
+- [x] Repository structuring and README setup.
 
-![Fase 2](https://img.shields.io/badge/Fase_2-Desenvolvimento_Backend-orange?style=flat-square)
+![Phase 2](https://img.shields.io/badge/Phase_2-Backend_Development-orange?style=flat-square)
 
-- [ ] Configuração do servidor Express e conexão Cloud SQL.
-- [ ] Criação das rotas da API (CRUD de rótulos).
-- [ ] Implementação de variáveis de ambiente (`.env`).
-- [ ] Testes de requisição (Postman/Insomnia).
+- [x] Express server setup and Cloud SQL integration.
+- [x] API Route development (Label CRUD).
+- [x] Environment variable implementation (`.env`).
+- [x] API testing and validation (Postman/Insomnia).
 
-![Fase 3](https://img.shields.io/badge/Fase_3-Interface_&_UX-yellow?style=flat-square)
+![Phase 3](https://img.shields.io/badge/Phase_3-Interface_&_UX-yellow?style=flat-square)
 
-- [ ] Setup do projeto Next.js.
-- [ ] Desenvolvimento da página de busca e filtros.
-- [ ] Consumo da API no Frontend.
-- [ ] Design responsivo (Mobile First).
+- [ ] Next.js project boilerplate setup.
+- [ ] Search and filter page development.
+- [ ] Frontend API consumption/integration.
+- [ ] Responsive Design (Mobile-First approach).
 
-![Fase 4](https://img.shields.io/badge/Fase_4-Deploy_&_Cloud-green?style=flat-square)
+![Phase 4](https://img.shields.io/badge/Phase_4-Deploy_&_Cloud-green?style=flat-square)
 
-- [ ] Dockerização das aplicações (Dockerfiles).
-- [ ] Deploy no Google Cloud Run.
-- [ ] Configuração de domínio e SSL.
-- [ ] Lançamento da versão Beta.
+- [ ] Application Dockerization (Dockerfiles).
+- [ ] Deployment to Google Cloud Run.
+- [ ] Domain and SSL configuration.
+- [ ] Beta version launch.

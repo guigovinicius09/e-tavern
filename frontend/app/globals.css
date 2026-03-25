@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --ref-tavern-brown: #3c2a1e;
+  --ref-tavern-brown: #201106;
   --ref-hop: #1f7c49; /*dark mode actions*/
   --ref-malt: #e6b34a; /*dark mode highlights and icons*/
   --ref-soft-cream: #f8f3e9; /*dark mode text*/
@@ -12,7 +12,7 @@
 }
 
 @theme {
-  --color-tavern: #3c2a1e;
+  --color-tavern: #201106;
   --color-hop: #1f7c49;
   --color-malt: #e6b34a;
   --color-soft-cream: #f8f3e9;
