@@ -37,7 +37,8 @@ export default function Header() {
               <a
                 key={link.name}
                 href={link.href}
-                className="relative text-soft-cream/70 hover:text-malt font-medium transition-colors duration-200 group">
+                className="relative text-soft-cream/70 hover:text-malt font-medium transition-colors duration-200 group"
+              >
                 {link.name}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-malt transition-all duration-300 group-hover:w-full"></span>
               </a>
@@ -49,7 +50,8 @@ export default function Header() {
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="p-2 rounded-lg text-soft-cream hover:bg-section-backdround transition-colors"
-              aria-label="Toggle menu">
+              aria-label="Toggle menu"
+            >
               {isMenuOpen ? (
                 <XIcon className="w-8 h-8" />
               ) : (
@@ -64,14 +66,16 @@ export default function Header() {
       <div
         className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out bg-tavern border-b border-malt/10 ${
           isMenuOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
-        }`}>
+        }`}
+      >
         <div className="px-4 pt-2 pb-6 space-y-1 sm:px-3">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
               className="block px-3 py-3 rounded-xl text-lg font-medium text-soft-cream hover:bg-hop/20 hover:text-malt transition-all"
-              onClick={() => setIsMenuOpen(false)}>
+              onClick={() => setIsMenuOpen(false)}
+            >
               {link.name}
             </a>
           ))}

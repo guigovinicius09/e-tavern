@@ -51,21 +51,24 @@ export default function Footer() {
               <li>
                 <a
                   href="/"
-                  className="text-soft-cream/70 hover:text-malt transition-colors">
+                  className="text-soft-cream/70 hover:text-malt transition-colors"
+                >
                   Início
                 </a>
               </li>
               <li>
                 <a
                   href="/cervejas"
-                  className="text-soft-cream/70 hover:text-malt transition-colors">
+                  className="text-soft-cream/70 hover:text-malt transition-colors"
+                >
                   Cervejas
                 </a>
               </li>
               <li>
                 <a
                   href="/sobre"
-                  className="text-soft-cream/70 hover:text-malt transition-colors">
+                  className="text-soft-cream/70 hover:text-malt transition-colors"
+                >
                   Sobre Nós
                 </a>
               </li>
@@ -85,7 +88,8 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={social.label}
-                  className="text-soft-cream/60 hover:text-hop transition-colors">
+                  className="text-soft-cream/60 hover:text-hop transition-colors"
+                >
                   {social.icon}
                 </a>
               ))}

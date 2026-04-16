@@ -1,7 +1,6 @@
 # 🍺 e-Tavern
 
-[![English](https://img.shields.io/badge/Language-English-darkred)](#)
-[![Português](https://img.shields.io/badge/Language-Portuguese-darkgreen)](README.pt-br.md)
+[![Português](https://img.shields.io/badge/Language-Portuguese-darkgreen?style=for-the-badge)](README.pt-br.md)
 
 > ### Your pocket digital cellar.
 
@@ -13,7 +12,7 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![UML](https://img.shields.io/badge/UML-Documentation-333333?style=for-the-badge&logo=uml&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-0.2.0--alpha-magenta)
+![Version](https://img.shields.io/badge/version-0.4.0--alpha-magenta?style=for-the-badge)
 
 **e-Tavern** is a digital catalog specialized in beverages, designed to provide a data-rich experience for enthusiasts. More than just a database, the platform aggregates trivia, brewery heritage, and technical specifications (such as ABV and IBU), serving as a definitive guide for those looking to explore the beverage universe in depth.
 
@@ -63,7 +62,7 @@ The following steps outline the evolution of **e-Tavern**.
 - [x] Express server setup and Cloud SQL integration.
 - [x] API Route development (Label CRUD).
 - [x] Environment variable implementation (`.env`).
-- [x] API testing and validation (Postman/Insomnia).
+- [x] API testing and validation (`Postman`).
 
 ![Phase 3](https://img.shields.io/badge/Phase_3-Interface_&_UX-yellow?style=flat-square)
 
